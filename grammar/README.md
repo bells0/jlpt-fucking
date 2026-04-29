@@ -10,3 +10,5 @@
 | 动作时点与变化 | [ようとしたら・うちに・とたんに](n2-action-timing-and-change.md) | 2026-04-28 |
 | 选择与数量边界 | [てもなくても・たいだけ](n2-choice-and-quantity-patterns.md) | 2026-04-28 |
 | 列举与媒介 | [や何かで](n2-listing-media-ya-nanika-de.md) | 2026-04-28 |
+| 文の組み立て | [修饰关系・固定结构・句子骨架](n2-sentence-ordering-patterns.md) | 2026-04-28 |
+| 原因评价・范围・正式表达 | [だけあって・から〜にかけて・ようもない](n2-dakeatte-karanikakete-youmonai.md) | 2026-04-29 |

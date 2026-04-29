@@ -7,3 +7,4 @@
 | 主题 | 文件 | 来自错题 |
 |---|---|---|
 | 受け入れる 系列辨析 | [受け入れる・受け付ける・受け取る・取り入れる](ukeireru-uketsukeru-uketoru-toriireru.md) | 2026-04-28 |
+| 語彙用法 | [急激・演説・反省](n2-goi-usage-kyuugeki-enzetsu-hansei.md) | 2026-04-29 |

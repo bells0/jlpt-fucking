@@ -14,6 +14,16 @@
 
 这样以后可以按“日期回看当时错题”，也可以通过文件名看出内容范围。
 
+## 自动化入库
+
+新截图放到项目根目录后，可以先运行脚本：
+
+```bash
+python scripts/new_mistake_batch.py --date 2026-04-29 --type bunpou-goi --count 6
+```
+
+脚本会自动归档截图、生成批次模板，并输出索引更新草稿。详细说明见 [../docs/automation.md](../docs/automation.md)。
+
 ## 如何使用这个错题本复习
 
 ### 1. 快速复盘：15 分钟
@@ -74,7 +84,9 @@
 | 题型 | 入口 | 用途 |
 |---|---|---|
 | 文法 | [by-type/bunpou](by-type/bunpou/README.md) | 文法填空、句型辨析、接续词、助词 |
+| 文の組み立て | [by-type/bunpou-kumitate](by-type/bunpou-kumitate/README.md) | 排序题、修饰关系、固定结构、句子骨架 |
 | 語彙 | [by-type/vocabulary](by-type/vocabulary/README.md) | 词语用法、搭配、近义词辨析 |
+| 漢字 | [by-type/kanji](by-type/kanji/README.md) | 漢字读音、字形、熟词、易混项 |
 | 読解 | [by-type/reading](by-type/reading/README.md) | 短文、中篇、长篇、信息检索 |
 | 聴解 | [by-type/listening](by-type/listening/README.md) | 听力表达、场景判断、即时反应 |
 
@@ -91,6 +103,8 @@
 | 日期 | 文件 | 内容 | 关联主题 |
 |---|---|---|---|
 | 2026-04-28 | [N2 文法・語彙错题 8 题](2026/04/2026-04-28-n2-bunpou-goi-08-items.md) | 文法填空 7 题、词语用法 1 题 | 接续词、假设、ようとしたら、うちに、や何かで、たいだけ、受け入れる |
+| 2026-04-28 | [N2 文の組み立て错题 3 题](2026/04/2026-04-28-n2-bunpou-kumitate-03-items.md) | 文の組み立て 3 题 | に比べると、に対する、があって初めて、おかげだ |
+| 2026-04-29 | [N2 文法・語彙错题 6 题](2026/04/2026-04-29-n2-bunpou-goi-06-items.md) | 文法 3 题、語彙 3 题 | 急激、演説、反省、だけあって、から〜にかけて、ようもない |
 
 ## 图片归档
 
