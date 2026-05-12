@@ -18,6 +18,8 @@
 | 2026-04-28 | [N2 文法・語彙错题 8 题](../../2026/04/2026-04-28-n2-bunpou-goi-08-items.md) | 7 | 接续词、假设、动作时点、媒介助词、数量边界、变化过程 | [接续词与假设](../../../grammar/n2-connectors-and-hypothesis.md), [动作时点与变化](../../../grammar/n2-action-timing-and-change.md), [选择与数量边界](../../../grammar/n2-choice-and-quantity-patterns.md), [や何かで](../../../grammar/n2-listing-media-ya-nanika-de.md) |
 | 2026-04-28 | [N2 文の組み立て错题 3 题](../../2026/04/2026-04-28-n2-bunpou-kumitate-03-items.md) | 3 | 修饰关系、固定结构、句子骨架 | [文の組み立て](../../../grammar/n2-sentence-ordering-patterns.md) |
 | 2026-04-29 | [N2 文法・語彙错题 6 题](../../2026/04/2026-04-29-n2-bunpou-goi-06-items.md) | 3 | 原因评价、时间范围、正式感谢表达 | [だけあって・から〜にかけて・ようもない](../../../grammar/n2-dakeatte-karanikakete-youmonai.md) |
+| 2026-05-11 | [N2 文法・語彙错题 8 题](../../2026/05/2026-05-11-n2-bunpou-goi-08-items.md) | 8 | 时间起点、惊讶、不得不、判断副词、转述、必要条件、轻度假设 | [時点・判断・推量](../../../grammar/n2-time-judgment-modality.md) |
+| 2026-05-11 | [N2 文の組み立て错题 4 题](../../2026/05/2026-05-11-n2-bunpou-kumitate-04-items.md) | 4 | 名词块、副词位置、引用内容、让步结构、顺便动作 | [文の組み立て](../../../grammar/n2-sentence-ordering-patterns.md) |
 
 ## 常见错误模式
 

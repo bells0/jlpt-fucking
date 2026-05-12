@@ -12,3 +12,4 @@
 | 列举与媒介 | [や何かで](n2-listing-media-ya-nanika-de.md) | 2026-04-28 |
 | 文の組み立て | [修饰关系・固定结构・句子骨架](n2-sentence-ordering-patterns.md) | 2026-04-28 |
 | 原因评价・范围・正式表达 | [だけあって・から〜にかけて・ようもない](n2-dakeatte-karanikakete-youmonai.md) | 2026-04-29 |
+| 時点・判断・推量 | [て以来・まさか・ざるを得ない・ないことには](n2-time-judgment-modality.md) | 2026-05-11 |
