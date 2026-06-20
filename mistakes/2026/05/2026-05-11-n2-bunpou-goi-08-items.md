@@ -1,3 +1,14 @@
+---
+title: "N2 文法・語彙错题 8 题"
+type: 错题
+level: N2
+date: 2026-05-11
+question_type: 文法・語彙
+item_count: 8
+tags:
+  - jlpt-n2
+  - 错题
+---
 # N2 文法・語彙错题 8 题
 
 标签: `#错题` `#n2` `#bunpou-goi`
@@ -10,35 +21,35 @@
 | 级别 | N2 |
 | 题型 | 文法・語彙 |
 | 题数 | 8 |
-| 截图目录 | [mistakes/assets/2026-05-11](../../assets/2026-05-11) |
+| 截图目录 | `mistakes/assets/2026-05-11` |
 
 ## 截图归档
 
-- ![Screenshot_20260511_170058.jpg](../../assets/2026-05-11/Screenshot_20260511_170058.jpg)
-- ![Screenshot_20260511_170153.jpg](../../assets/2026-05-11/Screenshot_20260511_170153.jpg)
-- ![Screenshot_20260511_170520.jpg](../../assets/2026-05-11/Screenshot_20260511_170520.jpg)
-- ![Screenshot_20260511_170839.jpg](../../assets/2026-05-11/Screenshot_20260511_170839.jpg)
-- ![Screenshot_20260511_171049.jpg](../../assets/2026-05-11/Screenshot_20260511_171049.jpg)
-- ![Screenshot_20260511_171206.jpg](../../assets/2026-05-11/Screenshot_20260511_171206.jpg)
-- ![Screenshot_20260511_171949.jpg](../../assets/2026-05-11/Screenshot_20260511_171949.jpg)
-- ![Screenshot_20260511_172200.jpg](../../assets/2026-05-11/Screenshot_20260511_172200.jpg)
+- ![[mistakes/assets/2026-05-11/Screenshot_20260511_170058.jpg]]
+- ![[mistakes/assets/2026-05-11/Screenshot_20260511_170153.jpg]]
+- ![[mistakes/assets/2026-05-11/Screenshot_20260511_170520.jpg]]
+- ![[mistakes/assets/2026-05-11/Screenshot_20260511_170839.jpg]]
+- ![[mistakes/assets/2026-05-11/Screenshot_20260511_171049.jpg]]
+- ![[mistakes/assets/2026-05-11/Screenshot_20260511_171206.jpg]]
+- ![[mistakes/assets/2026-05-11/Screenshot_20260511_171949.jpg]]
+- ![[mistakes/assets/2026-05-11/Screenshot_20260511_172200.jpg]]
 
 ## 错题总览
 
 | 题号 | 题型 | 你的答案 | 正解 | 高频考点 | 复习入口 |
 |---|---|---|---|---|---|
-| 1 | 文法 | 4 | 1 | `Vて以来` | [時点・判断・推量](../../../grammar/n2-time-judgment-modality.md) |
-| 2 | 文法 | 4 | 2 | `まさか` | [時点・判断・推量](../../../grammar/n2-time-judgment-modality.md) |
-| 3 | 文法 | 4 | 1 | `ざるを得ない` | [時点・判断・推量](../../../grammar/n2-time-judgment-modality.md) |
-| 4 | 文法 | 2 | 2 | `Vます形 + かける` | [時点・判断・推量](../../../grammar/n2-time-judgment-modality.md) |
-| 5 | 文法 | 4 | 2 | `まず無理だろう` | [時点・判断・推量](../../../grammar/n2-time-judgment-modality.md) |
-| 6 | 文法 | 2 | 3 | `とのことです` | [時点・判断・推量](../../../grammar/n2-time-judgment-modality.md) |
-| 7 | 文法 | 4 | 3 | `しないことには` | [時点・判断・推量](../../../grammar/n2-time-judgment-modality.md) |
-| 8 | 文法 | 4 | 3 | `ぐらいなら` | [時点・判断・推量](../../../grammar/n2-time-judgment-modality.md) |
+| 1 | 文法 | 4 | 1 | `Vて以来` | [[grammar/n2-time-judgment-modality|時点・判断・推量]] |
+| 2 | 文法 | 4 | 2 | `まさか` | [[grammar/n2-time-judgment-modality|時点・判断・推量]] |
+| 3 | 文法 | 4 | 1 | `ざるを得ない` | [[grammar/n2-time-judgment-modality|時点・判断・推量]] |
+| 4 | 文法 | 2 | 2 | `Vます形 + かける` | [[grammar/n2-time-judgment-modality|時点・判断・推量]] |
+| 5 | 文法 | 4 | 2 | `まず無理だろう` | [[grammar/n2-time-judgment-modality|時点・判断・推量]] |
+| 6 | 文法 | 2 | 3 | `とのことです` | [[grammar/n2-time-judgment-modality|時点・判断・推量]] |
+| 7 | 文法 | 4 | 3 | `しないことには` | [[grammar/n2-time-judgment-modality|時点・判断・推量]] |
+| 8 | 文法 | 4 | 3 | `ぐらいなら` | [[grammar/n2-time-judgment-modality|時点・判断・推量]] |
 
 ## 复习入口
 
-- 文法: [N2 時点・判断・推量](../../../grammar/n2-time-judgment-modality.md)
+- 文法: [[grammar/n2-time-judgment-modality|N2 時点・判断・推量]]
 - 語彙: なし
 - 漢字: なし
 - 読解: なし

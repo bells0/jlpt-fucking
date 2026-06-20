@@ -1,4 +1,13 @@
+---
+title: "错题本索引"
+type: 索引
+tags:
+  - jlpt-n2
+  - 索引
+---
 # 错题本索引
+
+[[README|← 返回总导航]]
 
 标签: `#错题` `#索引` `#jlpt-n2`
 
@@ -19,10 +28,10 @@
 新截图放到项目根目录后，可以先运行脚本：
 
 ```bash
-python scripts/new_mistake_batch.py --date 2026-04-29 --type bunpou-goi --count 6
+python3 scripts/new_mistake_batch.py --date 2026-04-29 --type bunpou-goi --count 6
 ```
 
-脚本会自动归档截图、生成批次模板，并输出索引更新草稿。详细说明见 [../docs/automation.md](../docs/automation.md)。
+脚本会自动归档截图、生成批次模板，并输出索引更新草稿。详细说明见 [[docs/automation|../docs/automation.md]]。
 
 ## 如何使用这个错题本复习
 
@@ -83,12 +92,12 @@ python scripts/new_mistake_batch.py --date 2026-04-29 --type bunpou-goi --count 
 
 | 题型 | 入口 | 用途 |
 |---|---|---|
-| 文法 | [by-type/bunpou](by-type/bunpou/README.md) | 文法填空、句型辨析、接续词、助词 |
-| 文の組み立て | [by-type/bunpou-kumitate](by-type/bunpou-kumitate/README.md) | 排序题、修饰关系、固定结构、句子骨架 |
-| 語彙 | [by-type/vocabulary](by-type/vocabulary/README.md) | 词语用法、搭配、近义词辨析 |
-| 漢字 | [by-type/kanji](by-type/kanji/README.md) | 漢字读音、字形、熟词、易混项 |
-| 読解 | [by-type/reading](by-type/reading/README.md) | 短文、中篇、长篇、信息检索 |
-| 聴解 | [by-type/listening](by-type/listening/README.md) | 听力表达、场景判断、即时反应 |
+| 文法 | [[mistakes/by-type/bunpou/README|by-type/bunpou]] | 文法填空、句型辨析、接续词、助词 |
+| 文の組み立て | [[mistakes/by-type/bunpou-kumitate/README|by-type/bunpou-kumitate]] | 排序题、修饰关系、固定结构、句子骨架 |
+| 語彙 | [[mistakes/by-type/vocabulary/README|by-type/vocabulary]] | 词语用法、搭配、近义词辨析 |
+| 漢字 | [[mistakes/by-type/kanji/README|by-type/kanji]] | 漢字读音、字形、熟词、易混项 |
+| 読解 | [[mistakes/by-type/reading/README|by-type/reading]] | 短文、中篇、长篇、信息检索 |
+| 聴解 | [[mistakes/by-type/listening/README|by-type/listening]] | 听力表达、场景判断、即时反应 |
 
 ## 复习顺序
 
@@ -102,11 +111,15 @@ python scripts/new_mistake_batch.py --date 2026-04-29 --type bunpou-goi --count 
 
 | 日期 | 文件 | 内容 | 关联主题 |
 |---|---|---|---|
-| 2026-04-28 | [N2 文法・語彙错题 8 题](2026/04/2026-04-28-n2-bunpou-goi-08-items.md) | 文法填空 7 题、词语用法 1 题 | 接续词、假设、ようとしたら、うちに、や何かで、たいだけ、受け入れる |
-| 2026-04-28 | [N2 文の組み立て错题 3 题](2026/04/2026-04-28-n2-bunpou-kumitate-03-items.md) | 文の組み立て 3 题 | に比べると、に対する、があって初めて、おかげだ |
-| 2026-04-29 | [N2 文法・語彙错题 6 题](2026/04/2026-04-29-n2-bunpou-goi-06-items.md) | 文法 3 题、語彙 3 题 | 急激、演説、反省、だけあって、から〜にかけて、ようもない |
-| 2026-05-11 | [N2 文法・語彙错题 8 题](2026/05/2026-05-11-n2-bunpou-goi-08-items.md) | 文法填空 8 题 | て以来、まさか、ざるを得ない、かけ、まず、とのこと、ないことには、ぐらいなら |
-| 2026-05-11 | [N2 文の組み立て错题 4 题](2026/05/2026-05-11-n2-bunpou-kumitate-04-items.md) | 文の組み立て 4 题 | もう、まずないという、ひとくちに、といっても、ついでに |
+| 2026-04-28 | [[mistakes/2026/04/2026-04-28-n2-bunpou-goi-08-items|N2 文法・語彙错题 8 题]] | 文法填空 7 题、词语用法 1 题 | 接续词、假设、ようとしたら、うちに、や何かで、たいだけ、受け入れる |
+| 2026-04-28 | [[mistakes/2026/04/2026-04-28-n2-bunpou-kumitate-03-items|N2 文の組み立て错题 3 题]] | 文の組み立て 3 题 | に比べると、に対する、があって初めて、おかげだ |
+| 2026-04-29 | [[mistakes/2026/04/2026-04-29-n2-bunpou-goi-06-items|N2 文法・語彙错题 6 题]] | 文法 3 题、語彙 3 题 | 急激、演説、反省、だけあって、から〜にかけて、ようもない |
+| 2026-05-11 | [[mistakes/2026/05/2026-05-11-n2-bunpou-goi-08-items|N2 文法・語彙错题 8 题]] | 文法填空 8 题 | て以来、まさか、ざるを得ない、かけ、まず、とのこと、ないことには、ぐらいなら |
+| 2026-05-11 | [[mistakes/2026/05/2026-05-11-n2-bunpou-kumitate-04-items|N2 文の組み立て错题 4 题]] | 文の組み立て 4 题 | もう、まずないという、ひとくちに、といっても、ついでに |
+| 2026-05-20 | [[mistakes/2026/05/2026-05-20-n2-bunpou-06-items|N2 文法错题 6 题]] | 文法填空 6 题 | がたい、ならないかな、おきに、ようにしている、として、べきだった |
+| 2026-05-25 | [[mistakes/2026/05/2026-05-25-n2-bunpou-03-items|N2 文法错题 3 题]] | 文法填空 3 题 | かける、そのうち、以上 |
+| 2026-05-27 | [[mistakes/2026/05/2026-05-27-n2-goi-06-items|N2 語彙错题 6 题]] | 漢字书写 1 题、語彙 5 题 | 削る、づらい、潰す、帰省、和やか、追い払う |
+| 2026-06-10 | [[mistakes/2026/06/2026-06-10-n2-bunpou-08-items|N2 文法错题 8 题]] | 文法填空 8 题 | 敬语、だって、にしては、っこない、かねる、おいでになる、ようにしてほしい、についで |
 
 ## 图片归档
 

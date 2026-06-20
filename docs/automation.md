@@ -1,3 +1,10 @@
+---
+title: "错题入库自动化"
+type: 说明
+tags:
+  - jlpt-n2
+  - 说明
+---
 # 错题入库自动化
 
 标签: `#错题` `#自动化` `#jlpt-n2`
@@ -18,7 +25,7 @@
 在项目根目录运行：
 
 ```bash
-python scripts/new_mistake_batch.py --date 2026-04-29 --type bunpou-goi --count 6
+python3 scripts/new_mistake_batch.py --date 2026-04-29 --type bunpou-goi --count 6
 ```
 
 常用题型：
@@ -38,7 +45,7 @@ python scripts/new_mistake_batch.py --date 2026-04-29 --type bunpou-goi --count 
 不想马上移动截图时，先运行：
 
 ```bash
-python scripts/new_mistake_batch.py --date 2026-04-29 --type bunpou-goi --count 6 --dry-run
+python3 scripts/new_mistake_batch.py --date 2026-04-29 --type bunpou-goi --count 6 --dry-run
 ```
 
 `--dry-run` 只显示将要执行的动作，不移动图片，也不创建批次文件。
@@ -48,7 +55,8 @@ python scripts/new_mistake_batch.py --date 2026-04-29 --type bunpou-goi --count 
 整理完错题后运行：
 
 ```bash
-python scripts/check_mistake_originals.py
+python3 scripts/check_mistake_originals.py
+python3 scripts/check_obsidian_vault.py
 ```
 
 如果某道题没有先写「原题完整记录（不要加工）」、选项、你的答案、正解，检查会失败。失败时先补原题，不要继续写解析。
@@ -64,6 +72,7 @@ python scripts/check_mistake_originals.py
    - 全部选项
    - 你的答案
    - 正解
+   - `語彙` 题每个选项的读音、意思、用法和本题适用性
    - 整句翻译
    - 整句拆解
    - 中文翻译
@@ -89,6 +98,7 @@ python scripts/check_mistake_originals.py
 4. 你的答案和正解单独记录。
 5. 解析、翻译、语法点、词汇点、漢字读音总结都放在原题之后。
 6. 文法题、句子题、阅读中的关键句，优先补整句翻译和整句拆解。
+7. `語彙` 题要默认补「选项意思和用法」；每个选项都要说明读音、意思、常见搭配，以及本题为什么可用或不可用。
 
 漢字题尤其要保留：
 

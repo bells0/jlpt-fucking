@@ -1,3 +1,14 @@
+---
+title: "2026-04-29 N2 文法・語彙错题 6 题"
+type: 错题
+level: N2
+date: 2026-04-29
+question_type: 未分类
+item_count: 0
+tags:
+  - jlpt-n2
+  - 错题
+---
 # 2026-04-29 N2 文法・語彙错题 6 题
 
 标签: `#错题` `#文法` `#語彙` `#jlpt-n2`
@@ -6,8 +17,8 @@
 
 这份文件保留 2026-04-29 的 6 道错题。系统学习请看：
 
-- [語彙用法：急激・演説・反省](../../../vocabulary/n2-goi-usage-kyuugeki-enzetsu-hansei.md)
-- [N2 文法：だけあって・から〜にかけて・ようもない](../../../grammar/n2-dakeatte-karanikakete-youmonai.md)
+- [[vocabulary/n2-goi-usage-kyuugeki-enzetsu-hansei|語彙用法：急激・演説・反省]]
+- [[grammar/n2-dakeatte-karanikakete-youmonai|N2 文法：だけあって・から〜にかけて・ようもない]]
 
 ## 来源截图
 

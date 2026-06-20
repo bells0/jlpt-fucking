@@ -1,4 +1,13 @@
+---
+title: "読解错题索引"
+type: 索引
+tags:
+  - jlpt-n2
+  - 索引
+---
 # 読解错题索引
+
+[[mistakes/README|← 返回错题本索引]]｜[[README|返回总导航]]
 
 标签: `#错题` `#読解` `#jlpt-n2`
 

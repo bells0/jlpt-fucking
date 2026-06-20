@@ -1,8 +1,15 @@
+---
+title: "JLPT N2 个人知识库"
+type: 索引
+tags:
+  - jlpt-n2
+  - 索引
+---
 # JLPT N2 个人知识库
 
 这个仓库是为了通过 JLPT N2 而建立的个人日语学习知识库。
 
-本项目的默认助手角色定义在 [AGENTS.md](AGENTS.md)：**JLPT N2 学习陪练与知识库编辑者**。
+本项目的默认助手角色定义在 [[AGENTS|AGENTS.md]]：**JLPT N2 学习陪练与知识库编辑者**。
 
 ## 目标
 
@@ -12,21 +19,44 @@
 - 积累适合 JLPT N2 复习的マークダウン笔记。
 - 说明要实用、面向考试、方便回顾。
 
-## 当前结构
+## 总导航
 
-- `mistakes/`: 错题批次、截图归档、按日期与按题型的复盘索引。
-- `grammar/`: 从错题抽出来的 N2 语法主题笔记。
-- `vocabulary/`: 从错题抽出来的词汇、搭配、近义辨析。
-- `kanji/`: 从错题抽出来的漢字读音、字形、熟词整理。
-- `reading/`: 未来放阅读策略、长文错题。
-- `listening/`: 未来放听力表达、听错点。
-- `plans/`: 未来放复习计划。
+| 分类 | 索引入口 | 主要内容 |
+|---|---|---|
+| Obsidian 首页 | [[学习首页|JLPT N2 学习首页]] | 待复习知识点、最近错题、当前计划与 Bases 视图 |
+| 错题 | [[mistakes/README|错题本索引]] | 按日期、题型查看原题、错因与解析 |
+| 文法 | [[grammar/README|N2 语法索引]] | 句型、接续、语感、相似语法辨析 |
+| 語彙 | [[vocabulary/README|N2 词汇索引]] | 读音、搭配、近义词与选项用法 |
+| 漢字 | [[kanji/README|漢字笔记索引]] | 读音、字形、熟词与易混项 |
+| 読解 | [[mistakes/by-type/reading/README|読解错题索引]] | 阅读错因、原文定位与选项分析 |
+| 聴解 | [[mistakes/by-type/listening/README|聴解错题索引]] | 听力错因、关键表达与精听复盘 |
+| 学习计划 | [[plans/README|学习计划索引]] | 冲刺计划、每日打卡与复习安排 |
+| 使用说明 | [[docs/README|资料说明索引]] | 知识库流程与自动整理说明 |
+| 维护脚本 | [[scripts/README|脚本索引]] | 错题批次生成与完整性检查 |
+| 笔记模板 | [[templates/README|模板索引]] | 新建错题批次时使用的模板 |
+
+## 最近更新
+
+| 日期 | 更新内容 | 去哪里看 |
+|---|---|---|
+| 2026-06-20 | 完成 Obsidian 深度重构，建立原子知识点、双链、属性、Bases 与完整性检查 | [[学习首页|学习首页]] |
+| 2026-06-19 | 新增「N2 最后17天冲刺计划」，归档原始计划图，并整理每日打卡、软件真题、错题本、听力精听和阅读错题方法 | [[plans/2026-n2-last-17-days|计划详情]] |
+| 2026-06-19 | 补齐计划、资料说明、脚本和模板索引，建立两层导航规则 | [[plans/README|学习计划索引]]、[[docs/README|资料说明索引]]、[[scripts/README|脚本索引]]、[[templates/README|模板索引]] |
+
+## 索引维护规则
+
+以后新增或更新内容时，必须同时完成：
+
+1. 把文件加入所在分类的 `README.md` 索引。
+2. 如果是新的学习主题、错题批次或计划，在根目录“最近更新”登记日期、更新内容和入口。
+3. 如果笔记来自错题，要让错题批次、题型索引和主题笔记互相链接。
+4. 交付前检查新文件能否从本页出发，在两次点击以内找到。
 
 ## 怎么开始复习
 
 平时复习从这里开始：
 
-> [mistakes/README.md](mistakes/README.md)
+> [[mistakes/README|mistakes/README.md]]
 
 如果今天只想快速复盘，按这个顺序：
 
@@ -55,10 +85,10 @@
 常用命令：
 
 ```bash
-python scripts/new_mistake_batch.py --date 2026-04-29 --type bunpou-goi --count 6
+python3 scripts/new_mistake_batch.py --date 2026-04-29 --type bunpou-goi --count 6
 ```
 
-详细说明见 [docs/automation.md](docs/automation.md)。
+详细说明见 [[docs/automation|docs/automation.md]]。
 
 手动规则仍然是：
 
@@ -70,4 +100,4 @@ python scripts/new_mistake_batch.py --date 2026-04-29 --type bunpou-goi --count 
 6. 词汇、搭配、近义辨析整理到 `vocabulary/`。
 7. 批次笔记和相关主题笔记互相链接。
 
-复习入口：[mistakes/README.md](mistakes/README.md)。
+复习入口：[[mistakes/README|mistakes/README.md]]。

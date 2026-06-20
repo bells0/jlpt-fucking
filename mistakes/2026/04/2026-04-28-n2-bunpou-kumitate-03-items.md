@@ -1,3 +1,14 @@
+---
+title: "2026-04-28 N2 文の組み立て错题 3 题"
+type: 错题
+level: N2
+date: 2026-04-28
+question_type: 未分类
+item_count: 0
+tags:
+  - jlpt-n2
+  - 错题
+---
 # 2026-04-28 N2 文の組み立て错题 3 题
 
 标签: `#错题` `#文法` `#文の組み立て` `#jlpt-n2`
@@ -6,7 +17,7 @@
 
 这份文件保留这次 3 道「文の組み立て」错题。系统学习请看：
 
-- [N2 文の組み立て：修饰关系・固定结构・句子骨架](../../../grammar/n2-sentence-ordering-patterns.md)
+- [[grammar/n2-sentence-ordering-patterns|N2 文の組み立て：修饰关系・固定结构・句子骨架]]
 
 ## 来源截图
 

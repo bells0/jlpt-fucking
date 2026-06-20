@@ -1,6 +1,17 @@
-# {title}
+---
+title: {title}
+type: 错题
+level: {level_upper}
+date: {date}
+question_type: {type_label}
+item_count: {count}
+tags:
+  - jlpt-n2
+  - 错题
+  - {type_tag}
+---
 
-标签: `#错题` `#jlpt-n2` `{type_tag}`
+# {title}
 
 ## 基本信息
 
@@ -10,7 +21,7 @@
 | 级别 | {level_upper} |
 | 题型 | {type_label} |
 | 题数 | {count} |
-| 截图目录 | [{asset_dir_label}]({asset_dir_link}) |
+| 截图目录 | `{asset_dir_label}` |
 
 ## 截图归档
 

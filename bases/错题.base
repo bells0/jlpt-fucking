@@ -1,0 +1,38 @@
+filters:
+  and:
+    - 'file.ext == "md"'
+    - 'type == "错题"'
+properties:
+  file.name:
+    displayName: "错题批次"
+  date:
+    displayName: "日期"
+  question_type:
+    displayName: "题型"
+  item_count:
+    displayName: "题数"
+views:
+  - type: table
+    name: "最近错题"
+    limit: 10
+    order:
+      - file.name
+      - date
+      - question_type
+      - item_count
+  - type: table
+    name: "按题型"
+    groupBy:
+      property: question_type
+      direction: ASC
+    order:
+      - file.name
+      - date
+      - item_count
+  - type: table
+    name: "按日期"
+    order:
+      - date
+      - file.name
+      - question_type
+      - item_count

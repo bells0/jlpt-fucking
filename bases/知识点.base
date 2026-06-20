@@ -1,0 +1,64 @@
+filters:
+  and:
+    - 'file.ext == "md"'
+    - 'level == "N2"'
+    - or:
+        - 'type == "文法"'
+        - 'type == "語彙"'
+        - 'type == "漢字"'
+properties:
+  file.name:
+    displayName: "知识点"
+  type:
+    displayName: "分类"
+  status:
+    displayName: "状态"
+  sources:
+    displayName: "来源错题"
+views:
+  - type: table
+    name: "全部"
+    order:
+      - file.name
+      - type
+      - status
+      - sources
+  - type: table
+    name: "待复习"
+    filters:
+      or:
+        - 'status == "待学习"'
+        - 'status == "复习中"'
+    order:
+      - file.name
+      - type
+      - status
+      - sources
+  - type: table
+    name: "文法"
+    filters: 'type == "文法"'
+    order:
+      - file.name
+      - status
+      - sources
+  - type: table
+    name: "語彙"
+    filters: 'type == "語彙"'
+    order:
+      - file.name
+      - status
+      - sources
+  - type: table
+    name: "漢字"
+    filters: 'type == "漢字"'
+    order:
+      - file.name
+      - status
+      - sources
+  - type: table
+    name: "已掌握"
+    filters: 'status == "已掌握"'
+    order:
+      - file.name
+      - type
+      - sources

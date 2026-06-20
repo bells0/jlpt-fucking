@@ -1,3 +1,14 @@
+---
+title: "2026-04-28 N2 文法・語彙错题 8 题"
+type: 错题
+level: N2
+date: 2026-04-28
+question_type: 未分类
+item_count: 0
+tags:
+  - jlpt-n2
+  - 错题
+---
 # 2026-04-28 N2 文法・語彙错题 8 题
 
 标签: `#错题` `#文法` `#語彙` `#jlpt-n2`
@@ -6,11 +17,11 @@
 
 这份文件保留“这一天错了什么”。系统学习请看关联主题笔记：
 
-- [N2 接续词与假设条件：もっとも・しかも・かりに・たとえ](../../../grammar/n2-connectors-and-hypothesis.md)
-- [N2 动作时点与变化：ようとしたら・うちに・とたんに](../../../grammar/n2-action-timing-and-change.md)
-- [N2 选择与数量边界：てもなくても・たいだけ](../../../grammar/n2-choice-and-quantity-patterns.md)
-- [N2 列举与媒介：や何かで](../../../grammar/n2-listing-media-ya-nanika-de.md)
-- [語彙辨析：受け入れる・受け付ける・受け取る・取り入れる](../../../vocabulary/ukeireru-uketsukeru-uketoru-toriireru.md)
+- [[grammar/n2-connectors-and-hypothesis|N2 接续词与假设条件：もっとも・しかも・かりに・たとえ]]
+- [[grammar/n2-action-timing-and-change|N2 动作时点与变化：ようとしたら・うちに・とたんに]]
+- [[grammar/n2-choice-and-quantity-patterns|N2 选择与数量边界：てもなくても・たいだけ]]
+- [[grammar/n2-listing-media-ya-nanika-de|N2 列举与媒介：や何かで]]
+- [[vocabulary/ukeireru-uketsukeru-uketoru-toriireru|語彙辨析：受け入れる・受け付ける・受け取る・取り入れる]]
 
 ## 来源截图
 

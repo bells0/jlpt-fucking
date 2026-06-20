@@ -155,13 +155,25 @@ def load_template(repo_root: Path) -> str:
     return template_path.read_text(encoding="utf-8")
 
 
-def image_markdown(batch_path: Path, images: list[Path]) -> str:
+def vault_path(repo_root: Path, target: Path) -> str:
+    """返回供 Obsidian 双链与嵌入使用的仓库根相对路径。"""
+    return target.relative_to(repo_root).as_posix()
+
+
+def wikilink(repo_root: Path, target: Path, label: str) -> str:
+    link = vault_path(repo_root, target)
+    if link.endswith(".md"):
+        link = link[:-3]
+    return f"[[{link}|{label}]]"
+
+
+def image_markdown(repo_root: Path, images: list[Path]) -> str:
     if not images:
         return "- 本次没有自动归档新截图。"
     lines = []
     for image in images:
-        link = markdown_link(batch_path, image)
-        lines.append(f"- ![{image.name}]({link})")
+        link = vault_path(repo_root, image)
+        lines.append(f"- ![[{link}]]")
     return "\n".join(lines)
 
 
@@ -372,13 +384,13 @@ def build_note(
         "title": note_title,
         "level": level.lower(),
         "level_upper": level.upper(),
-        "type_tag": f"#{kind}",
+        "type_tag": kind,
         "type_label": type_label,
         "date": batch_date.isoformat(),
         "count": str(count),
         "asset_dir_label": f"mistakes/assets/{batch_date.isoformat()}",
         "asset_dir_link": markdown_link(batch_path, asset_dir),
-        "image_list": image_markdown(batch_path, images),
+        "image_list": image_markdown(repo_root, images),
         "overview_rows": overview_rows(count),
         "item_sections": item_sections(count, kind),
     }
@@ -389,21 +401,20 @@ def print_next_steps(
     repo_root: Path, batch_path: Path, batch_date: dt.date, kind: str, count: int
 ) -> None:
     type_label = TYPE_LABELS.get(kind, kind)
-    main_index = repo_root / "mistakes" / "README.md"
-    main_link = markdown_link(main_index, batch_path)
     print("\n下一步建议:")
     print(f"1. 补全 {batch_path}")
     print("2. 把批次加入 mistakes/README.md 的「批次列表」")
     print(f"3. 把批次加入 mistakes/by-type/ 对应题型索引")
     print("4. 如果有可复用知识点，新增或更新 grammar/、vocabulary/、kanji/、reading/ 下的主题笔记")
     print("\nmistakes/README.md 索引行草稿:")
+    batch_link = wikilink(repo_root, batch_path, f"N2 {type_label}错题 {count} 题")
     print(
-        f"| {batch_date.isoformat()} | [N2 {type_label}错题 {count} 题]({main_link}) |  |  |"
+        f"| {batch_date.isoformat()} | {batch_link} |  |  |"
     )
     print("\n题型索引位置:")
     for index_dir in TYPE_INDEX_DIRS.get(kind, [kind]):
         index_file = repo_root / "mistakes" / "by-type" / index_dir / "README.md"
-        type_link = markdown_link(index_file, batch_path)
+        type_link = wikilink(repo_root, batch_path, f"N2 {type_label}错题 {count} 题")
         print(f"- mistakes/by-type/{index_dir}/README.md: {type_link}")
 
 

@@ -1,3 +1,14 @@
+---
+title: "2026-05-11 N2 文の組み立て错题 4 题"
+type: 错题
+level: N2
+date: 2026-05-11
+question_type: 文の組み立て
+item_count: 4
+tags:
+  - jlpt-n2
+  - 错题
+---
 # 2026-05-11 N2 文の組み立て错题 4 题
 
 标签: `#错题` `#文法` `#文の組み立て` `#jlpt-n2`
@@ -10,27 +21,27 @@
 | 级别 | N2 |
 | 题型 | 文の組み立て |
 | 题数 | 4 |
-| 截图目录 | [mistakes/assets/2026-05-11](../../assets/2026-05-11) |
+| 截图目录 | `mistakes/assets/2026-05-11` |
 
 ## 截图归档
 
-- ![Screenshot_20260511_172459.jpg](../../assets/2026-05-11/Screenshot_20260511_172459.jpg)
-- ![Screenshot_20260511_173459.jpg](../../assets/2026-05-11/Screenshot_20260511_173459.jpg)
-- ![Screenshot_20260511_173700.jpg](../../assets/2026-05-11/Screenshot_20260511_173700.jpg)
-- ![Screenshot_20260511_173948.jpg](../../assets/2026-05-11/Screenshot_20260511_173948.jpg)
+- ![[mistakes/assets/2026-05-11/Screenshot_20260511_172459.jpg]]
+- ![[mistakes/assets/2026-05-11/Screenshot_20260511_173459.jpg]]
+- ![[mistakes/assets/2026-05-11/Screenshot_20260511_173700.jpg]]
+- ![[mistakes/assets/2026-05-11/Screenshot_20260511_173948.jpg]]
 
 ## 错题总览
 
 | 题号 | 题型 | 你的答案 | 正解 | 高频考点 | 复习入口 |
 |---|---|---|---|---|---|
-| 1 | 文の組み立て | 3 | 1 | `NももうNです` | [文の組み立て](../../../grammar/n2-sentence-ordering-patterns.md) |
-| 2 | 文の組み立て | 3 | 4 | `VることはまずないというN` | [文の組み立て](../../../grammar/n2-sentence-ordering-patterns.md) |
-| 3 | 文の組み立て | 1 | 2 | `ひとくちにNといっても` | [文の組み立て](../../../grammar/n2-sentence-ordering-patterns.md) |
-| 4 | 文の組み立て | 2 | 2 | `時間でも開いていて...のが助かる` | [文の組み立て](../../../grammar/n2-sentence-ordering-patterns.md) |
+| 1 | 文の組み立て | 3 | 1 | `NももうNです` | [[grammar/n2-sentence-ordering-patterns|文の組み立て]] |
+| 2 | 文の組み立て | 3 | 4 | `VることはまずないというN` | [[grammar/n2-sentence-ordering-patterns|文の組み立て]] |
+| 3 | 文の組み立て | 1 | 2 | `ひとくちにNといっても` | [[grammar/n2-sentence-ordering-patterns|文の組み立て]] |
+| 4 | 文の組み立て | 2 | 2 | `時間でも開いていて...のが助かる` | [[grammar/n2-sentence-ordering-patterns|文の組み立て]] |
 
 ## 复习入口
 
-- 文法: [N2 文の組み立て：修饰关系・固定结构・句子骨架](../../../grammar/n2-sentence-ordering-patterns.md)
+- 文法: [[grammar/n2-sentence-ordering-patterns|N2 文の組み立て：修饰关系・固定结构・句子骨架]]
 - 語彙: なし
 - 漢字: なし
 - 読解: なし
