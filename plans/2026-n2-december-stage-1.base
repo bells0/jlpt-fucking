@@ -1,0 +1,30 @@
+filters:
+  and:
+    - 'file.ext == "md"'
+    - 'plan_id == "2026-n2-december-stage-1"'
+properties:
+  date:
+    displayName: "日期"
+  phase:
+    displayName: "阶段"
+  grammar:
+    displayName: "语法速记"
+  practice:
+    displayName: "练习"
+  vocabulary:
+    displayName: "单词"
+  input:
+    displayName: "输入训练"
+  done:
+    displayName: "完成"
+views:
+  - type: table
+    name: "第一阶段"
+    order:
+      - date
+      - phase
+      - grammar
+      - practice
+      - vocabulary
+      - input
+      - done

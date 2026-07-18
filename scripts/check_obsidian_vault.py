@@ -9,10 +9,44 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CONTENT_DIRS = ("grammar", "vocabulary", "kanji", "mistakes", "plans")
+CONTENT_DIRS = ("archive", "grammar", "vocabulary", "kanji", "mistakes", "plans")
 ATOMIC_PREFIXES = ("文法-", "語彙-", "漢字-")
 WIKILINK_RE = re.compile(r"!?\[\[([^\]]+)\]\]")
 MARKDOWN_NOTE_LINK_RE = re.compile(r"\[[^\]]+\]\([^)]*\.md(?:#[^)]*)?\)")
+
+
+def wikilink_path(target: str) -> str:
+    """Return the path part before a wikilink alias separator.
+
+    In Markdown tables, Obsidian wikilink aliases must escape the pipe as
+    ``[[note\|alias]]`` so the table parser does not split the cell.
+    """
+    chars: list[str] = []
+    i = 0
+    while i < len(target):
+        char = target[i]
+        if char == "|":
+            break
+        if char == "\\" and i + 1 < len(target) and target[i + 1] == "|":
+            break
+        chars.append(char)
+        i += 1
+    return "".join(chars).split("#", 1)[0].strip()
+
+
+def table_line_has_unescaped_wikilink_alias(line: str) -> bool:
+    if not line.startswith("|"):
+        return False
+    for match in WIKILINK_RE.finditer(line):
+        body = match.group(1)
+        escaped = False
+        for char in body:
+            if char == "|" and not escaped:
+                return True
+            escaped = char == "\\" and not escaped
+            if char != "\\":
+                escaped = False
+    return False
 
 
 def frontmatter(text: str) -> dict[str, str]:
@@ -49,7 +83,7 @@ def all_link_targets() -> tuple[set[str], dict[str, list[Path]]]:
 
 
 def target_exists(target: str, paths: set[str], basenames: dict[str, list[Path]]) -> bool:
-    clean = target.split("|", 1)[0].split("#", 1)[0].strip()
+    clean = wikilink_path(target)
     if not clean or "{{" in clean:
         return True
     if clean in paths:
@@ -95,11 +129,17 @@ def check() -> list[str]:
         if MARKDOWN_NOTE_LINK_RE.search(text):
             issues.append(f"{path.relative_to(ROOT)} 仍含指向 .md 的普通 Markdown 链接")
 
+        for line_number, line in enumerate(text.splitlines(), start=1):
+            if table_line_has_unescaped_wikilink_alias(line):
+                issues.append(
+                    f"{path.relative_to(ROOT)}:{line_number} 表格中的双链别名需要写成 [[路径\\|别名]]"
+                )
+
         for match in WIKILINK_RE.finditer(text):
             target = match.group(1)
             if not target_exists(target, paths, basenames):
                 issues.append(f"{path.relative_to(ROOT)} 含失效双链: [[{target}]]")
-            clean = target.split("|", 1)[0].split("#", 1)[0].strip()
+            clean = wikilink_path(target)
             suffix = Path(clean).suffix.lower()
             key = Path(clean).stem if suffix in {".md", ".base"} else Path(clean).name
             incoming[key] += 1

@@ -15,9 +15,12 @@ tags:
 
 | 主题 | 文件 | 来自错题 |
 |---|---|---|
-| 受け入れる 系列辨析 | [[vocabulary/ukeireru-uketsukeru-uketoru-toriireru|受け入れる・受け付ける・受け取る・取り入れる]] | 2026-04-28 |
-| 語彙用法 | [[vocabulary/n2-goi-usage-kyuugeki-enzetsu-hansei|急激・演説・反省]] | 2026-04-29 |
-| 語彙・漢字用法 | [[vocabulary/n2-goi-kanji-usage-2026-05-27|削る・づらい・潰す・帰省・和やか・追い払う]] | 2026-05-27 |
+| 受け入れる 系列辨析 | [[vocabulary/ukeireru-uketsukeru-uketoru-toriireru\|受け入れる・受け付ける・受け取る・取り入れる]] | 2026-04-28 |
+| 語彙用法 | [[vocabulary/n2-goi-usage-kyuugeki-enzetsu-hansei\|急激・演説・反省]] | 2026-04-29 |
+| 語彙・漢字用法 | [[vocabulary/n2-goi-kanji-usage-2026-05-27\|削る・づらい・潰す・帰省・和やか・追い払う]] | 2026-05-27 |
+| 文字・語彙用法 | [[vocabulary/n2-goi-kanji-usage-2026-06-23\|善良・削除・絶えず・抱える・諸・連れ・リハーサル・特定・盛り上がる・うつむく]] | 2026-06-23 |
+| 文字・語彙复习 2026-06-25 | [[vocabulary/n2-goi-kanji-usage-2026-06-25\|詳細・絡まる・農薬・志望・散る・疲労・読書離れ・もてなす・はきはき]] | 2026-06-25 |
+| 文字・語彙复习 2026-06-27 | [[vocabulary/n2-goi-kanji-usage-2026-06-27\|実践・避難・敬う・受講・宛て・口調・薄める・鮮明]] | 2026-06-27 |
 
 ## 原子知识点
 
@@ -26,15 +29,15 @@ tags:
 
 | 知识点 | 状态 |
 |---|---|
-| [[vocabulary/語彙-削る|削る]] | 复习中 |
-| [[vocabulary/語彙-反省|反省]] | 复习中 |
-| [[vocabulary/語彙-取り入れる|取り入れる]] | 复习中 |
-| [[vocabulary/語彙-受け付ける|受け付ける]] | 复习中 |
-| [[vocabulary/語彙-受け入れる|受け入れる]] | 复习中 |
-| [[vocabulary/語彙-受け取る|受け取る]] | 复习中 |
-| [[vocabulary/語彙-和やか|和やか]] | 复习中 |
-| [[vocabulary/語彙-帰省する|帰省する]] | 复习中 |
-| [[vocabulary/語彙-急激|急激]] | 复习中 |
-| [[vocabulary/語彙-演説|演説]] | 复习中 |
-| [[vocabulary/語彙-潰す|潰す]] | 复习中 |
-| [[vocabulary/語彙-追い払う|追い払う]] | 复习中 |
+| [[vocabulary/語彙-削る\|削る]] | 复习中 |
+| [[vocabulary/語彙-反省\|反省]] | 复习中 |
+| [[vocabulary/語彙-取り入れる\|取り入れる]] | 复习中 |
+| [[vocabulary/語彙-受け付ける\|受け付ける]] | 复习中 |
+| [[vocabulary/語彙-受け入れる\|受け入れる]] | 复习中 |
+| [[vocabulary/語彙-受け取る\|受け取る]] | 复习中 |
+| [[vocabulary/語彙-和やか\|和やか]] | 复习中 |
+| [[vocabulary/語彙-帰省する\|帰省する]] | 复习中 |
+| [[vocabulary/語彙-急激\|急激]] | 复习中 |
+| [[vocabulary/語彙-演説\|演説]] | 复习中 |
+| [[vocabulary/語彙-潰す\|潰す]] | 复习中 |
+| [[vocabulary/語彙-追い払う\|追い払う]] | 复习中 |

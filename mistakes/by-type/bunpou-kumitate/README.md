@@ -27,8 +27,9 @@ tags:
 
 | 日期 | 批次 | 题数 | 主要错点 | 主题笔记 |
 |---|---|---:|---|---|
-| 2026-04-28 | [[mistakes/2026/04/2026-04-28-n2-bunpou-kumitate-03-items|N2 文の組み立て错题 3 题]] | 3 | 修饰关系、固定结构、句子骨架 | [[grammar/n2-sentence-ordering-patterns|文の組み立て：修饰关系・固定结构・句子骨架]] |
-| 2026-05-11 | [[mistakes/2026/05/2026-05-11-n2-bunpou-kumitate-04-items|N2 文の組み立て错题 4 题]] | 4 | 副词位置、引用内容、`ひとくちにNといっても`、`ついでに` | [[grammar/n2-sentence-ordering-patterns|文の組み立て：修饰关系・固定结构・句子骨架]] |
+| 2026-04-28 | [[mistakes/2026/04/2026-04-28-n2-bunpou-kumitate-03-items\|N2 文の組み立て错题 3 题]] | 3 | 修饰关系、固定结构、句子骨架 | [[grammar/n2-sentence-ordering-patterns\|文の組み立て：修饰关系・固定结构・句子骨架]] |
+| 2026-05-11 | [[mistakes/2026/05/2026-05-11-n2-bunpou-kumitate-04-items\|N2 文の組み立て错题 4 题]] | 4 | 副词位置、引用内容、`ひとくちにNといっても`、`ついでに` | [[grammar/n2-sentence-ordering-patterns\|文の組み立て：修饰关系・固定结构・句子骨架]] |
+| 2026-06-27 | [[mistakes/2026/06/2026-06-27-n2-bunpou-14-items#問題44\|N2 文法错题 14 题内排序题]] | 3 | `するだけしてみる`、长定语修饰、`〜を気にするあまり` | [[grammar/n2-sentence-ordering-patterns\|文の組み立て：修饰关系・固定结构・句子骨架]] |
 
 ## 常见错误模式
 

@@ -34,10 +34,10 @@ tags:
 
 | 题号 | 题型 | 你的答案 | 正解 | 高频考点 | 复习入口 |
 |---|---|---|---|---|---|
-| 1 | 文の組み立て | 3 | 1 | `NももうNです` | [[grammar/n2-sentence-ordering-patterns|文の組み立て]] |
-| 2 | 文の組み立て | 3 | 4 | `VることはまずないというN` | [[grammar/n2-sentence-ordering-patterns|文の組み立て]] |
-| 3 | 文の組み立て | 1 | 2 | `ひとくちにNといっても` | [[grammar/n2-sentence-ordering-patterns|文の組み立て]] |
-| 4 | 文の組み立て | 2 | 2 | `時間でも開いていて...のが助かる` | [[grammar/n2-sentence-ordering-patterns|文の組み立て]] |
+| 1 | 文の組み立て | 3 | 1 | `NももうNです` | [[grammar/n2-sentence-ordering-patterns\|文の組み立て]] |
+| 2 | 文の組み立て | 3 | 4 | `VることはまずないというN` | [[grammar/n2-sentence-ordering-patterns\|文の組み立て]] |
+| 3 | 文の組み立て | 1 | 2 | `ひとくちにNといっても` | [[grammar/n2-sentence-ordering-patterns\|文の組み立て]] |
+| 4 | 文の組み立て | 2 | 2 | `時間でも開いていて...のが助かる` | [[grammar/n2-sentence-ordering-patterns\|文の組み立て]] |
 
 ## 复习入口
 

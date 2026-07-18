@@ -38,14 +38,14 @@ tags:
 
 | 题号 | 题型 | 你的答案 | 正解 | 高频考点 | 复习入口 |
 |---|---|---|---|---|---|
-| 1 | 文法 | 4 | 1 | `Vて以来` | [[grammar/n2-time-judgment-modality|時点・判断・推量]] |
-| 2 | 文法 | 4 | 2 | `まさか` | [[grammar/n2-time-judgment-modality|時点・判断・推量]] |
-| 3 | 文法 | 4 | 1 | `ざるを得ない` | [[grammar/n2-time-judgment-modality|時点・判断・推量]] |
-| 4 | 文法 | 2 | 2 | `Vます形 + かける` | [[grammar/n2-time-judgment-modality|時点・判断・推量]] |
-| 5 | 文法 | 4 | 2 | `まず無理だろう` | [[grammar/n2-time-judgment-modality|時点・判断・推量]] |
-| 6 | 文法 | 2 | 3 | `とのことです` | [[grammar/n2-time-judgment-modality|時点・判断・推量]] |
-| 7 | 文法 | 4 | 3 | `しないことには` | [[grammar/n2-time-judgment-modality|時点・判断・推量]] |
-| 8 | 文法 | 4 | 3 | `ぐらいなら` | [[grammar/n2-time-judgment-modality|時点・判断・推量]] |
+| 1 | 文法 | 4 | 1 | `Vて以来` | [[grammar/n2-time-judgment-modality\|時点・判断・推量]] |
+| 2 | 文法 | 4 | 2 | `まさか` | [[grammar/n2-time-judgment-modality\|時点・判断・推量]] |
+| 3 | 文法 | 4 | 1 | `ざるを得ない` | [[grammar/n2-time-judgment-modality\|時点・判断・推量]] |
+| 4 | 文法 | 2 | 2 | `Vます形 + かける` | [[grammar/n2-time-judgment-modality\|時点・判断・推量]] |
+| 5 | 文法 | 4 | 2 | `まず無理だろう` | [[grammar/n2-time-judgment-modality\|時点・判断・推量]] |
+| 6 | 文法 | 2 | 3 | `とのことです` | [[grammar/n2-time-judgment-modality\|時点・判断・推量]] |
+| 7 | 文法 | 4 | 3 | `しないことには` | [[grammar/n2-time-judgment-modality\|時点・判断・推量]] |
+| 8 | 文法 | 4 | 3 | `ぐらいなら` | [[grammar/n2-time-judgment-modality\|時点・判断・推量]] |
 
 ## 复习入口
 

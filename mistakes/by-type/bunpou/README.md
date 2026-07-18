@@ -24,14 +24,16 @@ tags:
 
 | 日期 | 批次 | 文法题数 | 主要错点 | 主题笔记 |
 |---|---|---:|---|---|
-| 2026-04-28 | [[mistakes/2026/04/2026-04-28-n2-bunpou-goi-08-items|N2 文法・語彙错题 8 题]] | 7 | 接续词、假设、动作时点、媒介助词、数量边界、变化过程 | [[grammar/n2-connectors-and-hypothesis|接续词与假设]], [[grammar/n2-action-timing-and-change|动作时点与变化]], [[grammar/n2-choice-and-quantity-patterns|选择与数量边界]], [[grammar/n2-listing-media-ya-nanika-de|や何かで]] |
-| 2026-04-28 | [[mistakes/2026/04/2026-04-28-n2-bunpou-kumitate-03-items|N2 文の組み立て错题 3 题]] | 3 | 修饰关系、固定结构、句子骨架 | [[grammar/n2-sentence-ordering-patterns|文の組み立て]] |
-| 2026-04-29 | [[mistakes/2026/04/2026-04-29-n2-bunpou-goi-06-items|N2 文法・語彙错题 6 题]] | 3 | 原因评价、时间范围、正式感谢表达 | [[grammar/n2-dakeatte-karanikakete-youmonai|だけあって・から〜にかけて・ようもない]] |
-| 2026-05-11 | [[mistakes/2026/05/2026-05-11-n2-bunpou-goi-08-items|N2 文法・語彙错题 8 题]] | 8 | 时间起点、惊讶、不得不、判断副词、转述、必要条件、轻度假设 | [[grammar/n2-time-judgment-modality|時点・判断・推量]] |
-| 2026-05-11 | [[mistakes/2026/05/2026-05-11-n2-bunpou-kumitate-04-items|N2 文の組み立て错题 4 题]] | 4 | 名词块、副词位置、引用内容、让步结构、顺便动作 | [[grammar/n2-sentence-ordering-patterns|文の組み立て]] |
-| 2026-05-20 | [[mistakes/2026/05/2026-05-20-n2-bunpou-06-items|N2 文法错题 6 题]] | 6 | 难以、愿望、间隔、习惯、身份、后悔 | [[grammar/n2-grammar-choice-review-2026-05|文法辨析 2026-05]] |
-| 2026-05-25 | [[mistakes/2026/05/2026-05-25-n2-bunpou-03-items|N2 文法错题 3 题]] | 3 | かける、时间副词、既然逻辑 | [[grammar/n2-grammar-choice-review-2026-05|文法辨析 2026-05]] |
-| 2026-06-10 | [[mistakes/2026/06/2026-06-10-n2-bunpou-08-items|N2 文法错题 8 题]] | 8 | 敬语主语、举例反驳、评价副词、强否定、委婉判断、请求、排名 | [[grammar/n2-grammar-review-2026-06|文法辨析 2026-06]] |
+| 2026-04-28 | [[mistakes/2026/04/2026-04-28-n2-bunpou-goi-08-items\|N2 文法・語彙错题 8 题]] | 7 | 接续词、假设、动作时点、媒介助词、数量边界、变化过程 | [[grammar/n2-connectors-and-hypothesis\|接续词与假设]], [[grammar/n2-action-timing-and-change\|动作时点与变化]], [[grammar/n2-choice-and-quantity-patterns\|选择与数量边界]], [[grammar/n2-listing-media-ya-nanika-de\|や何かで]] |
+| 2026-04-28 | [[mistakes/2026/04/2026-04-28-n2-bunpou-kumitate-03-items\|N2 文の組み立て错题 3 题]] | 3 | 修饰关系、固定结构、句子骨架 | [[grammar/n2-sentence-ordering-patterns\|文の組み立て]] |
+| 2026-04-29 | [[mistakes/2026/04/2026-04-29-n2-bunpou-goi-06-items\|N2 文法・語彙错题 6 题]] | 3 | 原因评价、时间范围、正式感谢表达 | [[grammar/n2-dakeatte-karanikakete-youmonai\|だけあって・から〜にかけて・ようもない]] |
+| 2026-05-11 | [[mistakes/2026/05/2026-05-11-n2-bunpou-goi-08-items\|N2 文法・語彙错题 8 题]] | 8 | 时间起点、惊讶、不得不、判断副词、转述、必要条件、轻度假设 | [[grammar/n2-time-judgment-modality\|時点・判断・推量]] |
+| 2026-05-11 | [[mistakes/2026/05/2026-05-11-n2-bunpou-kumitate-04-items\|N2 文の組み立て错题 4 题]] | 4 | 名词块、副词位置、引用内容、让步结构、顺便动作 | [[grammar/n2-sentence-ordering-patterns\|文の組み立て]] |
+| 2026-05-20 | [[mistakes/2026/05/2026-05-20-n2-bunpou-06-items\|N2 文法错题 6 题]] | 6 | 难以、愿望、间隔、习惯、身份、后悔 | [[grammar/n2-grammar-choice-review-2026-05\|文法辨析 2026-05]] |
+| 2026-05-25 | [[mistakes/2026/05/2026-05-25-n2-bunpou-03-items\|N2 文法错题 3 题]] | 3 | かける、时间副词、既然逻辑 | [[grammar/n2-grammar-choice-review-2026-05\|文法辨析 2026-05]] |
+| 2026-06-10 | [[mistakes/2026/06/2026-06-10-n2-bunpou-08-items\|N2 文法错题 8 题]] | 8 | 敬语主语、举例反驳、评价副词、强否定、委婉判断、请求、排名 | [[grammar/n2-grammar-review-2026-06\|文法辨析 2026-06]] |
+| 2026-06-25 | [[mistakes/2026/06/2026-06-25-n2-bunpou-14-items\|N2 文法错题 14 题]] | 14 | 列举、条件、提前准备、程度变化、必要条件、后悔、敬语、排序、文章语法 | [[grammar/n2-grammar-review-2026-06-25\|文法复习 2026-06-25]] |
+| 2026-06-27 | [[mistakes/2026/06/2026-06-27-n2-bunpou-14-items\|N2 文法错题 14 题]] | 14 | 极端例示、判断副词、部分否定、差点发生、排序、文章语法 | [[grammar/n2-grammar-review-2026-06-27\|文法复习 2026-06-27]] |
 
 ## 常见错误模式
 
